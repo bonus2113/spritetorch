@@ -56,6 +56,7 @@
 			this.btnLoadImage.TabIndex = 2;
 			this.btnLoadImage.Text = "load img src";
 			this.btnLoadImage.UseVisualStyleBackColor = true;
+			this.btnLoadImage.Click += new System.EventHandler( this.btnLoadImage_Click );
 			// 
 			// btnDiffToNorm
 			// 
@@ -65,6 +66,7 @@
 			this.btnDiffToNorm.TabIndex = 3;
 			this.btnDiffToNorm.Text = "diffuse to normal";
 			this.btnDiffToNorm.UseVisualStyleBackColor = true;
+			this.btnDiffToNorm.Click += new System.EventHandler( this.btnDiffToNorm_Click );
 			// 
 			// btnDepthToNorm
 			// 
@@ -74,12 +76,13 @@
 			this.btnDepthToNorm.TabIndex = 4;
 			this.btnDepthToNorm.Text = "depth to normal";
 			this.btnDepthToNorm.UseVisualStyleBackColor = true;
+			this.btnDepthToNorm.Click += new System.EventHandler( this.btnDepthToNorm_Click );
 			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF( 6F, 13F );
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size( 707, 515 );
+			this.ClientSize = new System.Drawing.Size( 441, 434 );
 			this.Controls.Add( this.btnDepthToNorm );
 			this.Controls.Add( this.btnDiffToNorm );
 			this.Controls.Add( this.btnLoadImage );

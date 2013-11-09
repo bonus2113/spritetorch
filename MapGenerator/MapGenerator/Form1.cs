@@ -12,5 +12,17 @@ namespace MapGenerator {
 		public Form1() {
 			InitializeComponent();
 		}
+
+		private void btnLoadImage_Click( object sender, EventArgs e ) {
+
+		}
+
+		private void btnDiffToNorm_Click( object sender, EventArgs e ) {
+
+		}
+
+		private void btnDepthToNorm_Click( object sender, EventArgs e ) {
+
+		}
 	}
 }
