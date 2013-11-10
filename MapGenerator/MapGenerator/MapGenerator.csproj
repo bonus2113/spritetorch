@@ -36,7 +36,7 @@
   <ItemGroup>
     <Reference Include="MathNet.Numerics, Version=2.6.1.30, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Libs\MathNet.Numerics.dll</HintPath>
+      <HintPath>..\..\Libs\MathNet.Numerics.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -57,6 +57,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="MapGenerator.cs" />
+    <Compile Include="MapGeneratorNormalFromDepth.cs" />
     <Compile Include="MapGeneratorNormalFromDiffuse.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,6 +85,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\test5.jpg" />
+    <Content Include="Resources\test4.png" />
+    <Content Include="Resources\test3.jpg" />
     <Content Include="Resources\test1.jpg" />
     <None Include="Resources\test2.jpg" />
   </ItemGroup>
