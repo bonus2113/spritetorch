@@ -14,11 +14,14 @@ namespace MapGenerator {
 		}
 
 		private void btnLoadImage_Click( object sender, EventArgs e ) {
-
+			pictureInput.Image = Properties.Resources.test2;
+			
+			
 		}
 
 		private void btnDiffToNorm_Click( object sender, EventArgs e ) {
-
+			Bitmap norm = MapGeneratorNormalFromDiffuse.generate(new Bitmap(pictureInput.Image));
+			pictureOutput.Image = norm;
 		}
 
 		private void btnDepthToNorm_Click( object sender, EventArgs e ) {

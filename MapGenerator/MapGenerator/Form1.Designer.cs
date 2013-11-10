@@ -37,6 +37,7 @@
 			this.pictureInput.Location = new System.Drawing.Point( 12, 12 );
 			this.pictureInput.Name = "pictureInput";
 			this.pictureInput.Size = new System.Drawing.Size( 300, 200 );
+			this.pictureInput.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureInput.TabIndex = 0;
 			this.pictureInput.TabStop = false;
 			// 
@@ -45,6 +46,7 @@
 			this.pictureOutput.Location = new System.Drawing.Point( 12, 218 );
 			this.pictureOutput.Name = "pictureOutput";
 			this.pictureOutput.Size = new System.Drawing.Size( 300, 200 );
+			this.pictureOutput.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureOutput.TabIndex = 1;
 			this.pictureOutput.TabStop = false;
 			// 
