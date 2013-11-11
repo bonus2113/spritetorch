@@ -23,90 +23,90 @@
 		/// the contents of this method with the code editor.
 		/// </summary>
 		private void InitializeComponent() {
-            this.btnLoadImage = new System.Windows.Forms.Button();
-            this.btnDiffToNorm = new System.Windows.Forms.Button();
-            this.btnDepthToNorm = new System.Windows.Forms.Button();
-            this.pictureOutput = new System.Windows.Forms.PictureBox();
-            this.pictureInput = new System.Windows.Forms.PictureBox();
-            this.btnSave = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureOutput)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureInput)).BeginInit();
-            this.SuspendLayout();
-            // 
-            // btnLoadImage
-            // 
-            this.btnLoadImage.Location = new System.Drawing.Point(341, 12);
-            this.btnLoadImage.Name = "btnLoadImage";
-            this.btnLoadImage.Size = new System.Drawing.Size(75, 23);
-            this.btnLoadImage.TabIndex = 2;
-            this.btnLoadImage.Text = "load img src";
-            this.btnLoadImage.UseVisualStyleBackColor = true;
-            this.btnLoadImage.Click += new System.EventHandler(this.btnLoadImage_Click);
-            // 
-            // btnDiffToNorm
-            // 
-            this.btnDiffToNorm.Location = new System.Drawing.Point(341, 66);
-            this.btnDiffToNorm.Name = "btnDiffToNorm";
-            this.btnDiffToNorm.Size = new System.Drawing.Size(75, 41);
-            this.btnDiffToNorm.TabIndex = 3;
-            this.btnDiffToNorm.Text = "diffuse to normal";
-            this.btnDiffToNorm.UseVisualStyleBackColor = true;
-            this.btnDiffToNorm.Click += new System.EventHandler(this.btnDiffToNorm_Click);
-            // 
-            // btnDepthToNorm
-            // 
-            this.btnDepthToNorm.Location = new System.Drawing.Point(341, 124);
-            this.btnDepthToNorm.Name = "btnDepthToNorm";
-            this.btnDepthToNorm.Size = new System.Drawing.Size(75, 41);
-            this.btnDepthToNorm.TabIndex = 4;
-            this.btnDepthToNorm.Text = "depth to normal";
-            this.btnDepthToNorm.UseVisualStyleBackColor = true;
-            this.btnDepthToNorm.Click += new System.EventHandler(this.btnDepthToNorm_Click);
-            // 
-            // pictureOutput
-            // 
-            this.pictureOutput.Location = new System.Drawing.Point(12, 218);
-            this.pictureOutput.Name = "pictureOutput";
-            this.pictureOutput.Size = new System.Drawing.Size(300, 200);
-            this.pictureOutput.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureOutput.TabIndex = 1;
-            this.pictureOutput.TabStop = false;
-            // 
-            // pictureInput
-            // 
-            this.pictureInput.Location = new System.Drawing.Point(12, 12);
-            this.pictureInput.Name = "pictureInput";
-            this.pictureInput.Size = new System.Drawing.Size(300, 200);
-            this.pictureInput.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureInput.TabIndex = 0;
-            this.pictureInput.TabStop = false;
-            // 
-            // btnSave
-            // 
-            this.btnSave.Location = new System.Drawing.Point(341, 218);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 25);
-            this.btnSave.TabIndex = 5;
-            this.btnSave.Text = "save output";
-            this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
-            // 
-            // Form1
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(441, 434);
-            this.Controls.Add(this.btnSave);
-            this.Controls.Add(this.btnDepthToNorm);
-            this.Controls.Add(this.btnDiffToNorm);
-            this.Controls.Add(this.btnLoadImage);
-            this.Controls.Add(this.pictureOutput);
-            this.Controls.Add(this.pictureInput);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureOutput)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureInput)).EndInit();
-            this.ResumeLayout(false);
+			this.btnLoadImage = new System.Windows.Forms.Button();
+			this.btnDiffToNorm = new System.Windows.Forms.Button();
+			this.btnDepthToNorm = new System.Windows.Forms.Button();
+			this.pictureOutput = new System.Windows.Forms.PictureBox();
+			this.pictureInput = new System.Windows.Forms.PictureBox();
+			this.btnSave = new System.Windows.Forms.Button();
+			((System.ComponentModel.ISupportInitialize)(this.pictureOutput)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureInput)).BeginInit();
+			this.SuspendLayout();
+			// 
+			// btnLoadImage
+			// 
+			this.btnLoadImage.Location = new System.Drawing.Point( 341, 12 );
+			this.btnLoadImage.Name = "btnLoadImage";
+			this.btnLoadImage.Size = new System.Drawing.Size( 75, 23 );
+			this.btnLoadImage.TabIndex = 2;
+			this.btnLoadImage.Text = "load img src";
+			this.btnLoadImage.UseVisualStyleBackColor = true;
+			this.btnLoadImage.Click += new System.EventHandler( this.btnLoadImage_Click );
+			// 
+			// btnDiffToNorm
+			// 
+			this.btnDiffToNorm.Location = new System.Drawing.Point( 341, 66 );
+			this.btnDiffToNorm.Name = "btnDiffToNorm";
+			this.btnDiffToNorm.Size = new System.Drawing.Size( 75, 41 );
+			this.btnDiffToNorm.TabIndex = 3;
+			this.btnDiffToNorm.Text = "diffuse to normal";
+			this.btnDiffToNorm.UseVisualStyleBackColor = true;
+			this.btnDiffToNorm.Click += new System.EventHandler( this.btnDiffToNorm_Click );
+			// 
+			// btnDepthToNorm
+			// 
+			this.btnDepthToNorm.Location = new System.Drawing.Point( 341, 124 );
+			this.btnDepthToNorm.Name = "btnDepthToNorm";
+			this.btnDepthToNorm.Size = new System.Drawing.Size( 75, 41 );
+			this.btnDepthToNorm.TabIndex = 4;
+			this.btnDepthToNorm.Text = "depth to normal";
+			this.btnDepthToNorm.UseVisualStyleBackColor = true;
+			this.btnDepthToNorm.Click += new System.EventHandler( this.btnDepthToNorm_Click );
+			// 
+			// pictureOutput
+			// 
+			this.pictureOutput.Location = new System.Drawing.Point( 12, 218 );
+			this.pictureOutput.Name = "pictureOutput";
+			this.pictureOutput.Size = new System.Drawing.Size( 300, 200 );
+			this.pictureOutput.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pictureOutput.TabIndex = 1;
+			this.pictureOutput.TabStop = false;
+			// 
+			// pictureInput
+			// 
+			this.pictureInput.Location = new System.Drawing.Point( 12, 12 );
+			this.pictureInput.Name = "pictureInput";
+			this.pictureInput.Size = new System.Drawing.Size( 300, 200 );
+			this.pictureInput.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pictureInput.TabIndex = 0;
+			this.pictureInput.TabStop = false;
+			// 
+			// btnSave
+			// 
+			this.btnSave.Location = new System.Drawing.Point( 341, 218 );
+			this.btnSave.Name = "btnSave";
+			this.btnSave.Size = new System.Drawing.Size( 75, 25 );
+			this.btnSave.TabIndex = 5;
+			this.btnSave.Text = "save output";
+			this.btnSave.UseVisualStyleBackColor = true;
+			this.btnSave.Click += new System.EventHandler( this.btnSave_Click );
+			// 
+			// Form1
+			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF( 6F, 13F );
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.ClientSize = new System.Drawing.Size( 441, 434 );
+			this.Controls.Add( this.btnSave );
+			this.Controls.Add( this.btnDepthToNorm );
+			this.Controls.Add( this.btnDiffToNorm );
+			this.Controls.Add( this.btnLoadImage );
+			this.Controls.Add( this.pictureOutput );
+			this.Controls.Add( this.pictureInput );
+			this.Name = "Form1";
+			this.Text = "Form1";
+			((System.ComponentModel.ISupportInitialize)(this.pictureOutput)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureInput)).EndInit();
+			this.ResumeLayout( false );
 
 		}
 

@@ -25,6 +25,11 @@ namespace MapGenerator {
 		}
 
 		private void btnDepthToNorm_Click( object sender, EventArgs e ) {
+			Bitmap norm = MapGeneratorNormalFromDepth.GenNormals( new Bitmap( pictureInput.Image ) );
+			pictureOutput.Image = norm;
+		}
+
+		private void btnSave_Click( object sender, EventArgs e ) {
 
 		}
 	}
