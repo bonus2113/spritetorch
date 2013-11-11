@@ -38,6 +38,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Libs\MathNet.Numerics.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -84,6 +85,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\canyon.jpg" />
+    <None Include="Resources\depth.png" />
+    <None Include="Resources\fluttershy.jpg" />
     <Content Include="Resources\test1.jpg" />
     <None Include="Resources\test2.jpg" />
   </ItemGroup>

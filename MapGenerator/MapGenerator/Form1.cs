@@ -14,7 +14,7 @@ namespace MapGenerator {
 		}
 
 		private void btnLoadImage_Click( object sender, EventArgs e ) {
-			pictureInput.Image = Properties.Resources.test2;
+			pictureInput.Image = Properties.Resources.depth;
 			
 			
 		}
